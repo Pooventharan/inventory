@@ -1,0 +1,63 @@
+{% extends "overview.html" %}
+{% block content %}
+<h1>Products</h1>
+<form action="" method="POST" class="product" id="frm_product">
+    {% csrf_token %}
+
+<!-- add Modal code-->
+<div id="addModal" style="display:inline">
+    <div>
+        <h3>Add Product</h3>
+            <table>
+                <tr><td><label>Product Name</label></td>
+                <td><input type="text" id="product_name" name="product_name" value="" minlength="1" required="required"></td></tr>
+                <tr><td><label>Quantity</label></td>
+                    <td><input type="text" id="quantity" name="quantity" value="" maxlength="1" required="required"><br></td></tr>
+                <tr><td></td><td><button type="submit" id="submit">Save</button></td></tr>
+            </table>
+   </div>
+ </div>
+<!--end of modal design-->
+<div>
+<table class="table table-hover">
+<thead>
+ <tr>
+   <th>ID</th>
+   <th>Product Name</th>
+   <th>Quantity</th>
+   <th></th>
+   <th></th>
+ </tr>
+</thead>
+<tbody>
+  {% for d in data %}
+  <tr>
+   <td>{{d.productId}}</td>
+   <td>{{d.productName}}</td>
+   <td>{{d.quantity}}</td>
+   <td><a href="">Edit</a></td>
+   <td><a href="javascript:void(0)" onclick="fndelete({{d.productId}})">Delete</a></td>
+   </tr>
+{%endfor%}
+</tbody>
+
+</table>
+</div>
+    </form>
+
+    <script type="text/javascript">
+
+    function fndelete(productid){
+        $.ajax({
+            url: 'delete',
+            type: 'POST',
+            data: {req_data: JSON.stringify({'productId': productid}),
+            'csrfmiddlewaretoken': '{{ csrf_token }}'},
+            success: function(data){
+                document.location.href = "product"
+            },
+        });
+    }
+</script>
+
+{% endblock content %}

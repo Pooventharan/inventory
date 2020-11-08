@@ -1,0 +1,66 @@
+{% extends "overview.html" %}
+{% block content %}
+<div class="container">
+
+<h1>Movement</h1>
+<div>
+  <h2> Manage product movement</h2>
+</div>
+
+      <div>
+        <form  action="" method="post">
+          <div id="prod">
+              <select name="product">
+                  <li>1</li>
+              </select>
+          </div>
+
+          <div id="from">
+              <select name="product">
+                  <li>1</li>
+              </select>
+          </div>
+          <div id="to">
+              <select name="product">
+                  <li>1</li>
+              </select>
+          </div>
+
+          <div class="qty">
+              <select name="product">
+                  <li>1</li>
+              </select>
+          </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </form>
+    </div>
+
+<table class="table table-hover">
+<thead>
+ <tr>
+   <th>ID</th>
+   <th>Timestamp</th>
+   <th>From</th>
+   <th>To</th>
+   <th>Product</th>
+   <th>Quantity </th>
+ </tr>
+</thead>
+<tbody>
+{%for d in details%}
+ <tr>
+   <td>{{d.mid}}</td>
+   <td>{{d.ts}}</td>
+   <td>{{d.frm}}</td>
+   <td>{{d.to}}</td>
+   <td>{{d.pname}}</td>
+   <td>{{d.pqty}}</td>
+ </tr>
+ {% endfor %}
+</tbody>
+</table>
+
+</div>
+
+
+{% endblock content %}

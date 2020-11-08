@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Management System</title>
+</head>
+<body>
+<header>
+    <div>
+        <a class="nav-item nav-link" href="/">Overview</a>
+        <a class="nav-item nav-link" href="/product">Products</a>
+        <a class="nav-item nav-link" href="/location">Location</a>
+        <a class="nav-item nav-link" href="/movement">Transfers</a>
+    </div>
+</header>
+<div>
+    {% block content %}
+    <h1>Overview Report</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+             <th></th>
+             <th>Product</th>
+             <th></th>
+             <th>Location</th>
+             <th></th>
+             <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        {%for b in balance%}
+           <tr>
+             <td>{{b.bid}}</td>
+             <td></td>
+             <td>{{b.product}}</td>
+             <td></td>
+             <td>{{b.location}}</td>
+             <td></td>
+             <td>{{b.quantity}}</td>
+           </tr>
+
+          {% endfor %}
+        </tbody>
+
+    </table>
+{% endblock %}
+</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</html>

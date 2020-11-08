@@ -1,0 +1,437 @@
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+ERROR:root:HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DAE7730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\python\python39\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "c:\python\python39\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D22DAE7730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DAE7730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 30, in post
+    result = requests.post("http://localhost:5000/insertproductdetails", json=data)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DAE7730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view web.views.product didn't return an HttpResponse object. It returned None instead.
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+ERROR:root:HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DE0ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\python\python39\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "c:\python\python39\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D22DE0ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DE0ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 30, in post
+    result = requests.post("http://localhost:5000/insertproductdetails", json=data)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D22DE0ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view web.views.product didn't return an HttpResponse object. It returned None instead.
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+ERROR:root:HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A6B0BB580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\python\python39\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "c:\python\python39\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000023A6B0BB580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A6B0BB580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 30, in post
+    result = requests.post("http://localhost:5000/insertproductdetails", json=data)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A6B0BB580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view web.views.product didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+ERROR:root:HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49C56AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\python\python39\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "c:\python\python39\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001EA49C56AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49C56AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 30, in post
+    result = requests.post("http://localhost:5000/insertproductdetails", json=data)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49C56AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+ERROR:root:HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49D3E430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\python\python39\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\python\python39\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "c:\python\python39\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001EA49D3E430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49D3E430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 30, in post
+    result = requests.post("http://localhost:5000/insertproductdetails", json=data)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /insertproductdetails (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA49D3E430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 21, in get
+    result = requests.get("http://localhost:5000/getproductdetails", json=data)
+NameError: name 'data' is not defined
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 21, in get
+    result = requests.get("http://localhost:5000/getproductdetails", json=data)
+NameError: name 'data' is not defined
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 21, in get
+    result = requests.get("http://localhost:5000/getproductdetails", json=data)
+NameError: name 'data' is not defined
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor

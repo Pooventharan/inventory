@@ -1,0 +1,54 @@
+{% extends "overview.html" %}
+{% block content %}
+<h1>Location</h1>
+<!-- add Modal code-->
+<div id="addModal" style="display:inline">
+    <div>
+        <h3>Add Location</h3>
+        <form action="" method="POST" class="location">
+            {% csrf_token %}
+            <table>
+                <tr><td><label>Location Name</label></td>
+                <td><input type="text" id="location_name" name="location_name" value="" minlength="1" required="required"></td></tr>
+                <tr><td></td><td><button type="submit" id="save">Save</button></td></tr>
+            </table>
+        </form>
+   </div>
+ </div>
+<!--end of modal design-->
+<table class="table table-hover">
+<thead>
+ <tr>
+   <th>ID</th>
+   <th>Location Name</th>
+   <th></th>
+   <th></th>
+ </tr>
+</thead>
+<tbody>
+  {% for d in data %}
+  <tr>
+   <td>{{d.locationId}}</td>
+   <td>{{d.locationName}}</td>
+   <td><a href="">Edit</a></td>
+   <td><a href="javascript:void(0)" onclick="fndelete({{d.locationId}})">Delete</a></td>
+   </tr>
+{%endfor%}
+</tbody>
+
+</table>
+<script type="text/javascript">
+    function fndelete(locationid){
+        $.ajax({
+            url: 'delete',
+            type: 'POST',
+            data: {req_data: JSON.stringify({'locationId': locationid}),
+            'csrfmiddlewaretoken': '{{ csrf_token }}'},
+            success: function(data){
+                document.location.href = "location"
+            },
+        });
+    }
+</script>
+
+{% endblock content %}

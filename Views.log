@@ -1,0 +1,2501 @@
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 21, in get
+    result = requests.get("http://localhost:5000/getproductdetails", json=data)
+NameError: name 'data' is not defined
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 23, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view response: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view response: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 24, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:django.request:Internal Server Error: /product
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 25, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+INFO:root:Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+INFO:root:Expecting value: line 1 column 1 (char 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+INFO:root:Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 26, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Method Not Allowed (POST): /location
+WARNING:django.request:Method Not Allowed: /location
+WARNING:django.request:Method Not Allowed (POST): /location
+WARNING:django.request:Method Not Allowed: /location
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 48, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:django.request:Internal Server Error: /location
+Traceback (most recent call last):
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\workspace\inventory\web\views.py", line 17, in get
+    return render("location.html")
+TypeError: render() missing 1 required positional argument: 'template_name'
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 404 232
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 38, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 38, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 38, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 38, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 38, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 106
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 106
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 106
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 106
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+DEBUG:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 22, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 45, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 500 290
+INFO:root:view result in get: <Response [500]>
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 45, in get
+    response['data'] = result.json()
+  File "C:\Users\Pooventharan S K\Envs\testinventory\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 45
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 45
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 45
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 45
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 45
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}]}
+DEBUG:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 156
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 83
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]}
+INFO:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 122
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\urls.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Method Not Allowed (GET): /delete
+WARNING:django.request:Method Not Allowed: /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING:django.request:Method Not Allowed (GET): /delete
+WARNING:django.request:Method Not Allowed: /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:django.utils.autoreload:D:\workspace\inventory\web\urls.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Method Not Allowed (GET): /delete
+WARNING:django.request:Method Not Allowed: /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING:django.request:Method Not Allowed (GET): /delete
+WARNING:django.request:Method Not Allowed: /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /delete
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+
+
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /delete
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\workspace\inventory\web\views.py", line 73, in post
+    delete_data = json.loads(request.body)
+  File "c:\python\python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "c:\python\python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\python\python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deletelocationdetails HTTP/1.1" 404 232
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 404 232
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+
+
+
+
+
+
+
+
+
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 404 232
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 205
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 153
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 153
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 153
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 500 290
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 104
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 104
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\workspace\inventory\web\views.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 122
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]}
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deletelocationdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 79
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 200 5
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 200 5
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 54
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]}
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 53
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 6, 'productName': 'sugar', 'quantity': 9}]}
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 79
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]}
+INFO:root:location post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertlocationdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 122
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 122
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+INFO:root:product post
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /insertproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 53
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'productId': 7, 'productName': 'sugar', 'quantity': 9}]}
+INFO:django.utils.autoreload:D:\workspace\inventory\web\urls.py changed, reloading.
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deleteproductdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 122
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]}
+INFO:root:delete product
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "POST /deletelocationdetails HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getlocationdetails HTTP/1.1" 200 84
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': [{'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /getproductdetails HTTP/1.1" 200 3
+INFO:root:view result in get: <Response [200]>
+INFO:root:view response in get: {'data': []}

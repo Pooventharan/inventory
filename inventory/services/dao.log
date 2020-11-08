@@ -1,0 +1,2511 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:13:40] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:13:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:15:52] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:17:39] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:17:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:17:41] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:17:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:19:45] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:19:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:19:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:19:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:20:11] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:22:38] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:28:36] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:29:49] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:30:34] "[31m[1mGET /insertproductdetails?productname=%27kl%27&&quantity=20 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:30:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:33:21] "[31m[1mGET /insertproductdetails HTTP/1.1[0m" 405 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:33:29] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:33:40] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:35:05] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:35:29] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:35:59] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    productId = params['productId']
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql, productId)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:39:41] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 15, in get_product_details
+    productId = params['productId']
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 12, in get_product_details
+    return self.daoObject.get_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 17, in get_product_details
+    cursor.execute(sql,)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:40:18] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:40:50] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:42:46] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:42:52] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:43:45] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:44:18] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:35:14] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:35:20] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:35:27] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:35:35] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:35:37] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:37:55] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:38:00] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:38:16] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:38:26] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 07:46:48] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: []
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:12:41] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: []
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:12:46] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+INFO:root:get response: [(1, 'kjhk', 225), (2, 'kjhk', 225)]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:12:50] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: []
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:12:54] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: []
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:13:56] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:17:05] "[33mPOST /insertlocationdetails HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 42, in insert_location_details
+    return inventory_info_handler.InventoryHandler().insert_location_details(location_name)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 20, in insert_location_details
+    return self.daoObject.insert_location_details(location_name)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 48, in insert_location_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s)' at line 1
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:26:06] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 42, in insert_location_details
+    return inventory_info_handler.InventoryHandler().insert_location_details(location_name)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 20, in insert_location_details
+    return self.daoObject.insert_location_details(location_name)
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 48, in insert_location_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s)' at line 1
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:27:02] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s)' at line 1
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 52, in insert_location_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s)' at line 1
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:30:28] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1364 (HY000): Field 'productId' doesn't have a default value
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 52, in insert_location_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1364 (HY000): Field 'productId' doesn't have a default value
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:33:04] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 08:39:27] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:root:get response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:12:16] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:12:16] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:12:20] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:12:26] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:14:41] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 106 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:17:23] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 106 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:22:02] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 106 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:25:41] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 106 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:27:26] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:27:35] "[35m[1mPOST /insertproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:27:37] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:33:33] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:33:37] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:33:41] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:33:48] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:43:17] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:44:34] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:44:38] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:44:43] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:44:47] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [(1, 'kangayam')]
+INFO:root:get response: [(1, 'kangayam')]
+ERROR:app:Exception on /getlocationdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:46:59] "[35m[1mGET /getlocationdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 14, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details()
+TypeError: get_product_details() missing 1 required positional argument: 'productId'
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:49:38] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 14, in get_product_details
+    response = inventory_info_handler.InventoryHandler().get_product_details()
+TypeError: get_product_details() missing 1 required positional argument: 'productId'
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:49:41] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:50:52] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 45 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:50:56] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 45 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:52:03] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 45 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:52:46] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 45 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:00] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:05] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 45 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:09] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:17] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:19] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:55:44] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:56:02] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 09:56:07] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 10:33:00] "[31m[1mGET /insertproductdetails HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 10:33:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 10:33:02] "[31m[1mGET /insertproductdetails HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 10:33:05] "[31m[1mGET /insertproductdetails HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 10:33:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:00] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:02] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:04] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:20] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:22] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:09:29] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:10:18] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:10:20] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:10:28] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:10:29] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:15:24] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 156 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:24:17] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:24:50] "[35m[1mPOST /insertproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:24:52] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:25:07] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:25:13] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}]
+INFO:root:get response: <Response 83 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:25:26] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /insertlocationdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:25:42] "[35m[1mPOST /insertlocationdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]
+INFO:root:get response: <Response 122 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:25:45] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:41:28] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:43:32] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:44:04] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:59:01] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 11:59:17] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:08:34] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:08:43] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:09:03] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:11:47] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:12:22] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:12:39] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:12:52] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:13:21] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:13:59] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:16:15] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:16:30] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:19:03] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:19:13] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:19:54] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:20:15] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:20:50] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:28:36] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:28:42] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:28:57] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:28:59] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:29:30] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:29:33] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:33:06] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:33:13] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:33:16] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:35:45] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:35:51] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:35:53] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:51:44] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:51:54] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:52:30] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:53:14] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:56:09] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:56:24] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:57:09] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:57:20] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:57:34] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:59:27] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 12:59:31] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:00:18] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:00:28] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:03:34] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:03:39] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:03:44] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:06:19] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:06:30] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:07:27] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:07:32] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:11:16] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:11:20] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:16:43] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:17:04] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:17:17] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:17:27] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:17:46] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:18:56] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:19:07] "[33mPOST /deletelocationdetails HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:19:09] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:19:53] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:19:57] "[33mPOST /deleteproductdetails HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:19:59] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:20:45] "[33mPOST /deleteproductdetails HTTP/1.1[0m" 404 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:20:47] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:22:21] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 33, in delete_product_details
+    return inventory_info_handler.InventoryHandler().delete_product_details(productId)
+TypeError: delete_product_details() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:22:31] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:22:33] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:23:50] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\inventory\inventory\services\app.py", line 33, in delete_product_details
+    return inventory_info_handler.InventoryHandler().delete_product_details(productId)
+  File "D:\workspace\inventory\inventory\services\handler\inventory_info_handler.py", line 19, in delete_product_details
+    return self.daoObjrct.delete_product_details(productId)
+AttributeError: 'InventoryHandler' object has no attribute 'daoObjrct'
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:23:55] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:23:57] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:24:47] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 49, in delete_product_details
+    cursor.execute(sql,value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:24:59] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:25:01] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:26:10] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 49, in delete_product_details
+    self.connection.commit()
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:26:23] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 1, 'productName': 'kjhk', 'quantity': 225}, {'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 205 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:26:25] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 153 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:31:00] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 45, in delete_product_details
+    sql = "delete from product where productId = "+productId
+TypeError: can only concatenate str (not "int") to str
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:31:05] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 153 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:31:07] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}, {'productId': 4, 'productName': 'kkk', 'quantity': 9}]
+INFO:root:get response: <Response 153 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:32:13] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /deleteproductdetails [POST]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:32:23] "[35m[1mPOST /deleteproductdetails HTTP/1.1[0m" 500 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 104 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:32:25] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}, {'productId': 3, 'productName': 'ummm', 'quantity': 5}]
+INFO:root:get response: <Response 104 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:32:57] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:34:32] "[37mPOST /deleteproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:34:34] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:36:02] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 2, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:37:55] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:37:59] "[37mPOST /deleteproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:38:01] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:38:03] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:30] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 1, 'locationName': 'kangayam'}, {'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]
+INFO:root:get response: <Response 122 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:34] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:39] "[37mPOST /deletelocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:41] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]
+INFO:root:get response: <Response 79 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:43] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:39:57] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:40:05] "[37mPOST /insertproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:40:07] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:40:39] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1366 (HY000): Incorrect integer value: '' for column 'quantity' at row 1
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 37, in insert_product_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'quantity' at row 1
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:40:43] "[37mPOST /insertproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:40:45] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:root:1366 (HY000): Incorrect integer value: '' for column 'quantity' at row 1
+Traceback (most recent call last):
+  File "D:\workspace\inventory\inventory\services\dao\inventory_info_dao.py", line 37, in insert_product_details
+    cursor.execute(sql, value)
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "D:\workspace\inventory\venv\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'quantity' at row 1
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:41:02] "[37mPOST /insertproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:41:04] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:41:08] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:41:44] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:42:03] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 5, 'productName': 'kjhk', 'quantity': 225}]
+INFO:root:get response: <Response 54 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:46:40] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:46:53] "[37mPOST /deleteproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:46:55] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 13:46:57] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:12] "[37mPOST /insertproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 6, 'productName': 'sugar', 'quantity': 9}]
+INFO:root:get response: <Response 53 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:15] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:23] "[37mPOST /deleteproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:25] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:27] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}]
+INFO:root:get response: <Response 79 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:33] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:50] "[37mPOST /insertlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 122 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:27:52] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:28:20] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 122 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:28:26] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:28:34] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:28:59] "[37mPOST /insertproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'productId': 7, 'productName': 'sugar', 'quantity': 9}]
+INFO:root:get response: <Response 53 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:29:01] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:58:42] "[37mPOST /deleteproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:58:44] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:58:47] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 2, 'locationName': 'tpr'}, {'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 122 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:58:51] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:inside delete api
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:58:58] "[37mPOST /deletelocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:59:01] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: [{'locationId': 3, 'locationName': 'covi'}, {'locationId': 4, 'locationName': 'kangayam'}]
+INFO:root:get response: <Response 84 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:59:03] "[37mGET /getlocationdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 14:59:44] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+INFO:root:get dao
+INFO:root:response: []
+INFO:root:get response: <Response 3 bytes [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2020 15:00:11] "[37mGET /getproductdetails HTTP/1.1[0m" 200 -

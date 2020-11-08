@@ -1,0 +1,68 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:11:11] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:11:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:root:jkjj
+DEBUG:mysql.connector.connection:new_auth_plugin: mysql_native_password
+ERROR:app:Exception on /getproductdetails [GET]
+Traceback (most recent call last):
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\workspace\inventory\venv\lib\site-packages\flask\app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:12:14] "[35m[1mGET /getproductdetails HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2020 23:12:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
