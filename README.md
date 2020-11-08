@@ -1,8 +1,10 @@
 # inventory
+
 Web Application(Frontend): Django
 API: Flask
 DB: Mysql
 
+Screen Shots:
 
 Overview Page:
 ![overview_page](https://github.com/Pooventharan/inventory/blob/master/screenshots/overview_page.PNG)
